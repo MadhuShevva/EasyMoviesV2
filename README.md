@@ -1,4 +1,4 @@
-```markdown
+
 # 🎬 EasyMovies - DevOps Enabled Java Project
 
 This is a Java-based application named **EasyMovies**, enhanced with essential DevOps tools like **JUnit**, **GitHub**, **Jenkins**, and **Maven**. It demonstrates automation of software delivery via Continuous Integration and Continuous Deployment (CI/CD) practices.
