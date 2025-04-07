@@ -1,26 +1,34 @@
-# EasyMovies - DevOps Enabled Java Project
+# 🎬 EasyMovies - DevOps Enabled Java Project
 
-This project is a Java-based application named **EasyMovies**, enhanced with DevOps tools such as **JUnit**, **GitHub**, **Jenkins**, and **Maven**. The project demonstrates automation through Continuous Integration and Delivery pipelines.
+This is a Java-based application named **EasyMovies**, enhanced with essential DevOps tools like **JUnit**, **GitHub**, **Jenkins**, and **Maven**. It demonstrates automation of software delivery via Continuous Integration and Continuous Deployment (CI/CD) practices.
 
 ---
 
 ## ✅ 1. JUnit Test Cases
 
-We have written different JUnit test cases to verify the core functionalities of the EasyMovies application. These include:
+We implemented multiple test cases using **JUnit** to ensure our application's correctness and robustness.
 
-- `testAddMovie()`: Tests addition of a new movie.
-- `testDeleteMovie()`: Tests deletion logic for a movie.
-- `testUpdateMovieDetails()`: Validates updating a movie’s info.
-- `testSearchMovieByGenre()`: Tests searching logic by genre.
-- `testValidateMovieData()`: Ensures input data is valid.
+### Test Classes:
+- `MovieTest.java`
+- `BookingTest.java`
+- `UserTest.java`
 
-JUnit provides annotations like `@Test`, `@BeforeEach`, and `@AfterEach` to manage test flows efficiently.
+### Key Test Methods:
+- `testAddMovie()`: Tests the logic for adding a movie.
+- `testDeleteMovie()`: Verifies if movies are deleted correctly.
+- `testUpdateMovieDetails()`: Ensures the update feature works properly.
+- `testSearchMovieByGenre()`: Tests genre-based search logic.
+- `testValidateMovieData()`: Validates the integrity of input data.
+
+> We used annotations like `@Test`, `@BeforeEach`, and `@AfterEach` to manage test execution efficiently.
 
 ---
 
 ## 📁 2. GitHub Integration
 
-### GitHub Commands Used:
+We used Git for version control and connected our repository to Jenkins for CI/CD.
+
+### 🔧 Git Commands Used:
 
 ```bash
 git init
