@@ -36,3 +36,17 @@ git add .
 git commit -m "Initial commit with JUnit tests"
 git remote add origin https://github.com/your-username/EasyMoviesV2.git
 git push -u origin main
+
+---
+
+## 🛠️ 3. Maven Setup
+
+**Apache Maven** was used for building the project and managing dependencies like JUnit.
+
+### ⚙️ Common Maven Commands
+
+```bash
+mvn compile        # Compile source code
+mvn test           # Run unit tests
+mvn clean install  # Clean, compile, test, and package the application
+
