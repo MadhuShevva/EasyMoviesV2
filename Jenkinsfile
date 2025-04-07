@@ -8,8 +8,7 @@ pipeline {
     stages {
         stage('Checkout Code') {
             steps {
-                git credentialsId: 'github-pat', url: 'https://github.com/MadhuShevva/EasyMoviesV2.git'
-
+                git branch: 'main', credentialsId: 'github-pat', url: 'https://github.com/MadhuShevva/EasyMoviesV2.git'
             }
         }
 
