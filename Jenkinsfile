@@ -2,25 +2,25 @@ pipeline {
     agent any
 
     tools {
-        maven 'Maven 3.9.6' // Use your Jenkins Maven version name
+        maven 'Maven 3.9.6'
     }
 
     stages {
         stage('Checkout Code') {
             steps {
-                git branch: 'main', credentialsId: 'github-pat', url: 'https://github.com/MadhuShevva/EasyMoviesV2.git'
+                git credentialsId: 'github-pat', url: 'https://github.com/MadhuShevva/EasyMoviesV2.git'
             }
         }
 
         stage('Build') {
             steps {
-                sh 'mvn clean install'
+                bat 'mvn clean install'
             }
         }
 
         stage('Test') {
             steps {
-                sh 'mvn test'
+                bat 'mvn test'
             }
         }
 
